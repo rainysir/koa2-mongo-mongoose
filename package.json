@@ -1,0 +1,42 @@
+{
+  "name": "koa-mongodb-server",
+  "version": "1.0.0",
+  "description": "利用node+koa+mongoose搭建的后台服务，提供restful接口api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js app"
+  },
+  "keywords": [
+    "koa",
+    "node",
+    "mongodb"
+  ],
+  "author": "zhangivon",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1",
+    "bluebird": "^3.5.0",
+    "busboy": "^0.2.14",
+    "cloudinary": "^1.8.0",
+    "cos-nodejs-sdk-v5": "^2.3.6",
+    "jsonwebtoken": "^8.2.1",
+    "koa": "^2.2.0",
+    "koa-better-body": "^3.0.4",
+    "koa-better-router": "^2.1.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^2.0.1",
+    "koa-router": "^7.1.1",
+    "koa-session": "^5.0.0",
+    "lodash": "^4.17.4",
+    "log4js": "^2.5.3",
+    "md5": "^2.2.1",
+    "mongoose": "^4.9.5",
+    "qiniu": "^6.1.13",
+    "sha1": "^1.1.1",
+    "speakeasy": "^2.0.0",
+    "uuid": "^3.0.1",
+    "xss": "^0.3.3"
+  }
+}
