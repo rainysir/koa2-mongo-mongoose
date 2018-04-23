@@ -119,7 +119,7 @@ class i18nController {
   static async updateItem(ctx) {
     const { en, cn, id, projectName } = ctx.request.body
 
-    if (!en || !cn ||!projectName || !id) {
+    if (!en || !cn || !projectName || !id) {
       throw new ApiError(ApiErrorNames.PARAMS_NOT_EXIST)
     }
 
